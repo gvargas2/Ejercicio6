@@ -1,9 +1,17 @@
 body {
-  background: black;
-  font-size: 30px;
+  background: silver;
 }
 
 .container {
+  width: 80vw;
   background: white;
+}
+
+.row {
+  background: red;
+}
+
+.col3 {
+  width: 30vw;
 }
 

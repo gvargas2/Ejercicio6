@@ -1,8 +1,22 @@
 body {
-	background: black;
-	font-size: 30px;
+	background: silver;
 }
 
 .container {
+	width: 80vw;
 	background: white;
+}
+ .row {
+	 background: red;
+	 clear: both;
+ }
+
+.col3 {
+	width: 30vw;
+	display: inline-block;
+}
+
+.col2 {
+	width: 30vw;
+	float left;
 }
