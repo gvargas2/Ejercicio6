@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100%;
-  background-color: silver;
+  background-color: #dee1e5;
   font-family: verdana;
   font-size: 9px;
 }
@@ -18,18 +18,33 @@ body {
   padding: 2%;
   text-align: center;
 }
+.nombre {
+  color: #e85e1e;
+}
+.header p {
+  display: inline-block;
+}
+.header img {
+  display: block;
+  width: 40px;
+}
  .container-1 {
    width: 45vw;
-   height: 100%;
+   height: 100vh;
    float: left;
    padding:0 1%;
    box-sizing: border-box;
    background-color: white;
    padding-bottom: 2%;
  }
+ .educacion {
+   background-color: #dee1e5;
+   border-radius: 4%;
+   margin-bottom: 2%;
+ }
  .container-2 {
    width: 35vw;
-   height: 100%;
+   height: 100vh;
    float: left;
    padding: 0 1%;
    box-sizing: border-box;
@@ -65,7 +80,20 @@ body {
    box-sizing: border-box;
    float: left;
  }
-
+ .col-md-offset-1{
+   margin-left: 20%;
+   box-sizing: border-box;
+ }
+ .col-md-1-experiencia{
+   width: 20%;
+   box-sizing: border-box;
+   float: left;
+ }
+.col-md-3-experiencia{
+  width: 60%;
+  box-sizing: border-box;
+  float: left;
+}
  .skill {
    background-color: #e85e1e;
    color: white;
@@ -76,9 +104,25 @@ body {
  }
  .idioma {
    border-bottom: solid 1px silver;
+   margin-bottom: 2%;
+ }
+ .hobbies {
+   padding-top: 4%;
+ }
+ .idiomas {
+   padding-top: 4%;
  }
  .titulo {
    color: #e85e1e;
+ }
+ .hobbie {
+   background-color: #a00404;
+   margin: 2%;
+   padding: 4%;
+   color: white;
+ }
+ .estrellas {
+   margin-left: 60%;
  }
  @media(max-width: 700px){
    .container-1 {
