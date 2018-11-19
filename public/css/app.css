@@ -131,7 +131,7 @@ body {
  }
  @media(max-width: 700px){
    .container-1 {
-     width: 70%;
+     width: 100vh;
      clear: both;
    }
    .container-2 {
