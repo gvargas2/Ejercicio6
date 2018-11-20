@@ -1,148 +1,78 @@
 body {
-  width: 99%;
+  background: silver;
+  width: 100%;
   height: 100%;
-  background-color: #dee1e5;
-  font-family: verdana;
-  font-size: 12px;
 }
-.container {
-  margin: 0 auto;
-  height: 100vh;
-  width: 80vw;
-  background-color: white;
-}
+
 .header {
   width: 80vw;
+  margin: 0 auto;
   clear: both;
+}
+
+.containerizq {
+  width: 48vw;
+  height: 100%;
   margin: 0 auto;
-  padding: 2%;
-  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.nombre {
-  color: #e85e1e;
-}
-.header p {
-  display: inline-block;
-}
-.imagenperfil {
-  width: 10%;
-  height: 2%;
+
+.containerder {
+  width: 32vw;
+  height: 100%;
   margin: 0 auto;
-}
-.imagenperfil img{
-  width: 100%;
-}
- .container-1 {
-   width: 45vw;
-   height: 110%;
-   float: left;
-   padding:0 1%;
-   box-sizing: border-box;
-   background-color: white;
-   padding-bottom: 2%;
- }
- .educacion {
-   background-color: #dee1e5;
-   border-radius: 4%;
-   margin-bottom: 2%;
- }
- .container-2 {
-   width: 35vw;
-   height: 110%;
-   float: left;
-   padding: 0 1%;
-   box-sizing: border-box;
-   background-color: white;
-   padding-bottom: 4%;
- }
- .row {
-   clear: both;
-   box-sizing: border-box;
- }
- .col-md-5 {
-   width: 100%;
-   box-sizing: border-box;
-   float: left;
- }
- .col-md-4 {
-   width: 80%;
-   box-sizing: border-box;
-   float: left;
- }
- .col-md-3 {
-   width: 60%;
-   box-sizing: border-box;
-   float: left;
- }
- .col-md-2 {
-   width: 40%;
-   box-sizing: border-box;
-   float: left;
- }
- .col-md-1 {
-   width: 20%;
-   box-sizing: border-box;
-   float: left;
- }
- .col-md-offset-1{
-   margin-left: 20%;
-   box-sizing: border-box;
- }
- .col-md-1-experiencia{
-   width: 20%;
-   box-sizing: border-box;
-   float: left;
- }
-.col-md-3-experiencia{
-  width: 60%;
-  box-sizing: border-box;
   float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
- .skill {
-   background-color: #e85e1e;
-   color: white;
-   font-style: bold;
-   clear: both;
-   padding: 2px;
-   margin-bottom: 3%;
- }
- .idioma {
-   border-bottom: solid 1px silver;
-   margin-bottom: 2%;
- }
- .hobbies {
-   padding-top: 4%;
- }
- .idiomas {
-   padding-top: 4%;
- }
- .titulo {
-   color: #e85e1e;
- }
- .hobbie {
-   background-color: #a00404;
-   margin: 2%;
-   padding: 4%;
-   color: white;
- }
- .estrellas {
-   margin-left: 70%;
-   width: 20%;
- }
- @media(max-width: 600px){
-   .header {
-     font-size: 1em;
-   }
-   .container-1 {
-     width: 100%;
-     height: 106%;
-     clear: both;
-     font-size: 1.1em;
-   }
-   .container-2 {
-     clear: both;
-     width: 100%;
-     height: 100%;
-     font-size: 1.1em;
-   }
- }
+
+p {
+  width: 80vw;
+}
+
+.row {
+  height: 100%;
+  clear: both;
+  width: 80vw;
+}
+
+.col-md-1 {
+  width: 10%;
+  float: left;
+  background-color: red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-md-2 {
+  width: 20%;
+  background-color: pink;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-md-3 {
+  width: 30%;
+  float: left;
+  background-color: blue;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-md-4 {
+  width: 40%;
+  float: left;
+  background-color: yellow;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-md-5 {
+  width: 50%;
+  background-color: green;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
